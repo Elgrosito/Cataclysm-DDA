@@ -106,6 +106,26 @@
     "melee_damage": { "bash": 40 }
   },
   {
+    "id": "anvil_sledge",
+    "type": "ITEM",
+    "subtypes": [ "TOOL" ],
+    "name": { "str": "sledgehammer anvil" },
+    "description": "An anvil made from the head of a sledgehammer.",
+    "//": "Represents hand tools heavy enough to serve as improvised anvils.",
+    "weight": "45 kg",
+    "volume": "30 L",
+    "longest_side": "40 cm",
+    "price": "1 kUSD",
+    "price_postapoc": "20 USD",
+    "to_hit": { "grip": "bad", "length": "hand", "surface": "any", "balance": "clumsy" },
+    "material": [ "steel" ],
+    "qualities": [ [ "ANVIL", 2 ] ],
+    "symbol": ";",
+    "color": "dark_gray",
+    "flags": [ "DURABLE_MELEE" ],
+    "melee_damage": { "bash": 40 }
+  },
+  {
     "id": "anvil_stump",
     "type": "ITEM",
     "subtypes": [ "TOOL" ],

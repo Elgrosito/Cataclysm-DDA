@@ -1562,6 +1562,11 @@
   },
   {
     "type": "construction_group",
+    "id": "place_anvil_sledge",
+    "name": "Mount Sledgehammer Anvil"
+  },
+  {
+    "type": "construction_group",
     "id": "place_anvil_scavenged",
     "name": "Mount Scavenged Anvil"
   },

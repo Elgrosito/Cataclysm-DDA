@@ -2962,6 +2962,23 @@
     "byproducts": [ [ "mc_steel_lump", 15 ] ]
   },
   {
+    "type": "recipe",
+    "activity_level": "MODERATE_EXERCISE",
+    "result": "anvil_sledge",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_TOOLS",
+    "skill_used": "fabrication",
+    "difficulty": 3,
+    "time": "4 h",
+    "autolearn": true,
+    "qualities": [ { "id": "HAMMER", "level": 1 }, { "id": "CHISEL_WOOD", "level": 1 } ],
+    "proficiencies": [ { "proficiency": "prof_metalworking", "required": true }, { "proficiency": "prof_blacksmithing" } ],
+    "components": [
+      [ [ "hammer_sledge", 1 ], [ "hammer_sledge_heavy", 1 ], [ "hammer_sledge_short", 1 ], [ "hammer_sledge_engineer", 1 ] ]
+    ],
+    "byproducts": [ [ "2x4", 1 ] ]
+  },
+  {
     "result": "anvil_bronze",
     "type": "recipe",
     "activity_level": "ACTIVE_EXERCISE",

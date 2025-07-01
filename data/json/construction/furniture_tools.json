@@ -54,6 +54,20 @@
   },
   {
     "type": "construction",
+    "id": "constr_anvil_sledge",
+    "group": "place_anvil_sledge",
+    "category": "FURN",
+    "required_skills": [ [ "fabrication", 2 ] ],
+    "time": "60 m",
+    "qualities": [ [ { "id": "SAW_W", "level": 1 } ], [ { "id": "CHISEL_WOOD", "level": 1 } ] ],
+    "components": [ [ [ "log", 1 ] ], [ [ "anvil_sledge", 1 ] ] ],
+    "pre_note": "Can be deconstructed without tools.",
+    "pre_special": "check_empty",
+    "post_terrain": "f_anvil_sledge",
+    "activity_level": "MODERATE_EXERCISE"
+  },
+  {
+    "type": "construction",
     "id": "constr_anvil_scavenged",
     "group": "place_anvil_scavenged",
     "category": "FURN",
